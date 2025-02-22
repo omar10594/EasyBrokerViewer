@@ -38,5 +38,8 @@ module EasyBrokerViewer
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Allow codespaces to access the app
+    config.hosts << /.*\.github\.dev/
   end
 end
