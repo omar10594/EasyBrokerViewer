@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.easybroker.com/v1/properties?limit=5&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Authorization:
+      - apitoken
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 22 Feb 2025 15:58:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-store
+      Vary:
+      - Accept
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - '0'
+      Feature-Policy:
+      - camera 'self'; microphone 'self'; fullscreen 'self' https://www.youtube.com/;
+        geolocation 'self'; gyroscope 'none'; usb 'none'; payment 'none'; magnetometer
+        'none'; accelerometer 'none'
+      X-Request-Id:
+      - 3a94ad80-9add-4897-b561-50dfb56552ac
+      X-Download-Options:
+      - noopen
+      Etag:
+      - W/"1985e4c85256e9eb43074b3a62f66908"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Runtime:
+      - '0.048850'
+      X-Content-Type-Options:
+      - nosniff
+      Set-Cookie:
+      - device_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqWmhOV0ZrTVRrMUxUUXdPRE10TkdVMk9TMDVaREJpTFRBek5qQXlOakE1TVdRd01DST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5kZXZpY2VfaWQifX0%3D--276ebab728ba2963a5b0cd3891d95d72df38e838;
+        path=/; expires=Wed, 22 Feb 2045 15:58:06 GMT; SameSite=Lax
+      - rp=api.stagingeb.com; path=/; expires=Sun, 23 Feb 2025 15:58:06 GMT; SameSite=Lax
+      - source=api.stagingeb.com; path=/; expires=Fri, 22 Aug 2025 15:58:06 GMT; SameSite=Lax
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.25
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.25
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwYWdpbmF0aW9uIjp7ImxpbWl0Ijo1LCJwYWdlIjoyLCJ0b3RhbCI6MTEwOCwibmV4dF9wYWdlIjoiaHR0cHM6Ly9hcGkuc3RhZ2luZ2ViLmNvbS92MS9wcm9wZXJ0aWVzP2xpbWl0PTVcdTAwMjZwYWdlPTMifSwiY29udGVudCI6W3sicHVibGljX2lkIjoiRUItQjQ5OTciLCJ0aXRsZSI6IkNhc2EgZW4gVmVudGEgZW4gRnJhY2MuIExvcyBDYW5kaWxlcyBlbiBBcG9kYWNhLCBOLkwuIiwidGl0bGVfaW1hZ2VfZnVsbCI6Imh0dHBzOi8vYXNzZXRzLnN0YWdpbmdlYi5jb20vcHJvcGVydHlfaW1hZ2VzLzI0OTk3LzQ5MDk0L0VCLUI0OTk3LmpwZz92ZXJzaW9uPTE1NTU1NDE2ODQiLCJ0aXRsZV9pbWFnZV90aHVtYiI6Imh0dHBzOi8vYXNzZXRzLnN0YWdpbmdlYi5jb20vcHJvcGVydHlfaW1hZ2VzLzI0OTk3LzQ5MDk0L0VCLUI0OTk3LmpwZz92ZXJzaW9uPTE1NTU1NDE2ODRcdTAwMjZ3aWR0aD0yMDAiLCJsb2NhdGlvbiI6IkxvcyBDYW5kaWxlcywgQXBvZGFjYSwgTnVldm8gTGXDs24iLCJvcGVyYXRpb25zIjpbeyJ0eXBlIjoic2FsZSIsImFtb3VudCI6NTgwMDAwLjAsImN1cnJlbmN5IjoiTVhOIiwiZm9ybWF0dGVkX2Ftb3VudCI6IiQ1ODAsMDAwIiwiY29tbWlzc2lvbiI6eyJ0eXBlIjoicGVyY2VudGFnZSJ9LCJ1bml0IjoidG90YWwifV0sImJlZHJvb21zIjoyLCJiYXRocm9vbXMiOjEsInBhcmtpbmdfc3BhY2VzIjpudWxsLCJwcm9wZXJ0eV90eXBlIjoiQ2FzYSIsImxvdF9zaXplIjo5MC4wLCJjb25zdHJ1Y3Rpb25fc2l6ZSI6NzAuMCwidXBkYXRlZF9hdCI6IjIwMjQtMDgtMTJUMjM6MzQ6MTItMDY6MDAiLCJhZ2VudCI6IkFsZWphbmRybyBCbGFuY28gWml2ZWMiLCJzaG93X3ByaWNlcyI6dHJ1ZSwic2hhcmVfY29tbWlzc2lvbiI6ZmFsc2V9LHsicHVibGljX2lkIjoiRUItQjQ5OTgiLCJ0aXRsZSI6IkNhc2EgZW4gVmVudGEgZW4gQ29sLiBMb21hcyBkZWwgVG9wbyBDaGljbyBlbiBNb250ZXJyZXksIE4uTC4iLCJ0aXRsZV9pbWFnZV9mdWxsIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjQ5OTgvNDkwOTUvRUItQjQ5OTguanBnP3ZlcnNpb249MTU1NTU0MTY4NSIsInRpdGxlX2ltYWdlX3RodW1iIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjQ5OTgvNDkwOTUvRUItQjQ5OTguanBnP3ZlcnNpb249MTU1NTU0MTY4NVx1MDAyNndpZHRoPTIwMCIsImxvY2F0aW9uIjoiTG9tYXMgZGUgVG9wbyBDaGljbywgTW9udGVycmV5LCBOdWV2byBMZcOzbiIsIm9wZXJhdGlvbnMiOlt7InR5cGUiOiJzYWxlIiwiYW1vdW50Ijo4MDAwMDAuMCwiY3VycmVuY3kiOiJNWE4iLCJmb3JtYXR0ZWRfYW1vdW50IjoiJDgwMCwwMDAiLCJjb21taXNzaW9uIjp7InR5cGUiOiJwZXJjZW50YWdlIn0sInVuaXQiOiJ0b3RhbCJ9XSwiYmVkcm9vbXMiOjgsImJhdGhyb29tcyI6NCwicGFya2luZ19zcGFjZXMiOm51bGwsInByb3BlcnR5X3R5cGUiOiJDYXNhIiwibG90X3NpemUiOjIzNy4wLCJjb25zdHJ1Y3Rpb25fc2l6ZSI6MjEzLjAsInVwZGF0ZWRfYXQiOiIyMDI0LTA4LTEyVDIzOjM0OjEyLTA2OjAwIiwiYWdlbnQiOiJBbGVqYW5kcm8gQmxhbmNvIFppdmVjIiwic2hvd19wcmljZXMiOnRydWUsInNoYXJlX2NvbW1pc3Npb24iOmZhbHNlfSx7InB1YmxpY19pZCI6IkVCLUI0OTk5IiwidGl0bGUiOiJDYXNhIGVuIFZlbnRhIGVuIENvbC4gTG9tYSBMaW5kYSBlbiBNb250ZXJyZXksIE4uTC4iLCJ0aXRsZV9pbWFnZV9mdWxsIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjQ5OTkvNDkwOTYvRUItQjQ5OTkuanBnP3ZlcnNpb249MTU1NTU0MTY4NiIsInRpdGxlX2ltYWdlX3RodW1iIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjQ5OTkvNDkwOTYvRUItQjQ5OTkuanBnP3ZlcnNpb249MTU1NTU0MTY4Nlx1MDAyNndpZHRoPTIwMCIsImxvY2F0aW9uIjoiTG9tYSBMaW5kYSwgTW9udGVycmV5LCBOdWV2byBMZcOzbiIsIm9wZXJhdGlvbnMiOlt7InR5cGUiOiJzYWxlIiwiYW1vdW50IjoxNjAwMDAwLjAsImN1cnJlbmN5IjoiTVhOIiwiZm9ybWF0dGVkX2Ftb3VudCI6IiQxLDYwMCwwMDAiLCJjb21taXNzaW9uIjp7InR5cGUiOiJwZXJjZW50YWdlIn0sInVuaXQiOiJ0b3RhbCJ9XSwiYmVkcm9vbXMiOjYsImJhdGhyb29tcyI6MywicGFya2luZ19zcGFjZXMiOm51bGwsInByb3BlcnR5X3R5cGUiOiJDYXNhIiwibG90X3NpemUiOjE5OS4wLCJjb25zdHJ1Y3Rpb25fc2l6ZSI6MjAzLjAsInVwZGF0ZWRfYXQiOiIyMDI0LTA4LTEyVDIzOjM0OjEyLTA2OjAwIiwiYWdlbnQiOiJBbGVqYW5kcm8gQmxhbmNvIFppdmVjIiwic2hvd19wcmljZXMiOnRydWUsInNoYXJlX2NvbW1pc3Npb24iOmZhbHNlfSx7InB1YmxpY19pZCI6IkVCLUI1MDAwIiwidGl0bGUiOiJDYXNhIGVuIFZlbnRhIGVuIENvbC4gQmxhcyBDaHVtYWNlcm8sIFNhbiBOaWNvbMOhcyBkZSBsb3MgR2FyemEsIE4uTC4iLCJ0aXRsZV9pbWFnZV9mdWxsIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjUwMDAvNDkwOTcvRUItQjUwMDAuanBnP3ZlcnNpb249MTU1NTU0MTY4NyIsInRpdGxlX2ltYWdlX3RodW1iIjoiaHR0cHM6Ly9hc3NldHMuc3RhZ2luZ2ViLmNvbS9wcm9wZXJ0eV9pbWFnZXMvMjUwMDAvNDkwOTcvRUItQjUwMDAuanBnP3ZlcnNpb249MTU1NTU0MTY4N1x1MDAyNndpZHRoPTIwMCIsImxvY2F0aW9uIjoiQmxhcyBDaHVtYWNlcm8gQ1RNLCBTYW4gTmljb2zDoXMgZGUgbG9zIEdhcnphLCBOdWV2byBMZcOzbiIsIm9wZXJhdGlvbnMiOlt7InR5cGUiOiJzYWxlIiwiYW1vdW50Ijo1MDAwMDAuMCwiY3VycmVuY3kiOiJNWE4iLCJmb3JtYXR0ZWRfYW1vdW50IjoiJDUwMCwwMDAiLCJjb21taXNzaW9uIjp7InR5cGUiOiJwZXJjZW50YWdlIn0sInVuaXQiOiJ0b3RhbCJ9XSwiYmVkcm9vbXMiOjIsImJhdGhyb29tcyI6MSwicGFya2luZ19zcGFjZXMiOm51bGwsInByb3BlcnR5X3R5cGUiOiJDYXNhIiwibG90X3NpemUiOjY3LjAsImNvbnN0cnVjdGlvbl9zaXplIjo2My4wLCJ1cGRhdGVkX2F0IjoiMjAyNC0wOC0xMlQyMzozNDoxMi0wNjowMCIsImFnZW50IjoiQWxlamFuZHJvIEJsYW5jbyBaaXZlYyIsInNob3dfcHJpY2VzIjp0cnVlLCJzaGFyZV9jb21taXNzaW9uIjpmYWxzZX0seyJwdWJsaWNfaWQiOiJFQi1CNTAwMSIsInRpdGxlIjoiQ2FzYSBlbiBWZW50YSBlbiBTYW50YSBNYXLDrWEgZW4gR2FyY8OtYSwgTi5MLiIsInRpdGxlX2ltYWdlX2Z1bGwiOiJodHRwczovL2Fzc2V0cy5zdGFnaW5nZWIuY29tL3Byb3BlcnR5X2ltYWdlcy8yNTAwMS80OTA5OC9FQi1CNTAwMS5qcGc/dmVyc2lvbj0xNTU1NTQxNjg4IiwidGl0bGVfaW1hZ2VfdGh1bWIiOiJodHRwczovL2Fzc2V0cy5zdGFnaW5nZWIuY29tL3Byb3BlcnR5X2ltYWdlcy8yNTAwMS80OTA5OC9FQi1CNTAwMS5qcGc/dmVyc2lvbj0xNTU1NTQxNjg4XHUwMDI2d2lkdGg9MjAwIiwibG9jYXRpb24iOiJTYW50YSBNYXLDrWEsIEdhcmPDrWEsIE51ZXZvIExlw7NuIiwib3BlcmF0aW9ucyI6W3sidHlwZSI6InNhbGUiLCJhbW91bnQiOjU1MDAwMC4wLCJjdXJyZW5jeSI6Ik1YTiIsImZvcm1hdHRlZF9hbW91bnQiOiIkNTUwLDAwMCIsImNvbW1pc3Npb24iOnsidHlwZSI6InBlcmNlbnRhZ2UifSwidW5pdCI6InRvdGFsIn1dLCJiZWRyb29tcyI6MiwiYmF0aHJvb21zIjoxLCJwYXJraW5nX3NwYWNlcyI6bnVsbCwicHJvcGVydHlfdHlwZSI6IkNhc2EiLCJsb3Rfc2l6ZSI6OTguMCwiY29uc3RydWN0aW9uX3NpemUiOjc1LjAsInVwZGF0ZWRfYXQiOiIyMDI0LTA4LTEyVDIzOjM0OjEyLTA2OjAwIiwiYWdlbnQiOiJBbGVqYW5kcm8gQmxhbmNvIFppdmVjIiwic2hvd19wcmljZXMiOnRydWUsInNoYXJlX2NvbW1pc3Npb24iOmZhbHNlfV19
+  recorded_at: Sat, 22 Feb 2025 15:58:06 GMT
+recorded_with: VCR 6.3.1
