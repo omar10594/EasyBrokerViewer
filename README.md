@@ -2,6 +2,16 @@
 
 EasyBrokerViewer is a Rails 8 application that consumes the EasyBroker API to fetch and display properties data. The project **does not use a database**, as all information is retrieved directly from the API. The user interface is built using **Tailwind CSS** and **Flowbite components**, offering a modern and responsive design.
 
+## Using GitHub Codespaces
+
+We recommend using GitHub Codespaces for this project to avoid managing dependencies on your local machine. With Codespaces, you can quickly set up a fully configured development environment in the cloud.
+
+1. Click the green **Code** button at the top of the repository.
+2. Select **Open with Codespaces**.
+3. If you don’t see an existing Codespace, click **New Codespace**.
+4. Wait for the environment to build and open. This may take a few minutes.
+5. Once the Codespace is ready, you’ll be able to work on the project immediately, without having to set up anything locally.
+
 ## Features
 
 - **API Consumption:** Integrates and fetches data from an external API in real time.
@@ -10,6 +20,8 @@ EasyBrokerViewer is a Rails 8 application that consumes the EasyBroker API to fe
 - **No Database:** All data is fetched from the API, so there is no need to set up a database.
 
 ## Requirements
+
+If you choose to set up the project locally instead of using a Codespace, you’ll need the following:
 
 - **Ruby:** Version 3.4.x or higher.
 - **Rails 8**
@@ -35,7 +47,8 @@ bundle install
 To configure the environment variables, follow these steps:
 
 - Locate the `env_example` file in the root directory of the project.
-- Make a copy of `env_example` and rename it to `.env`.
+- Make a copy of `env_example`.
+- Rename the copy to `.env`.
 - Open the newly created `.env` file and replace the placeholder values with the correct settings for your environment.
 
 ## Usage
