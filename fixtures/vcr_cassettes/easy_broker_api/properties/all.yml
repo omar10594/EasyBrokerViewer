@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.easybroker.com/v1/properties?limit=8&page=1
+    uri: https://api.easybroker.com/v1/properties?limit=10&page=1
     body:
       encoding: US-ASCII
       string: ''
